@@ -6,8 +6,8 @@ This model was implemented using a neural network that received as input the cur
 velocity, angle, angular velocity), and returned as output the action that should be performed to maintain its stability (right, left).
 
 Implementations:
- - tabular Q-learning model on a simple environment.
- - Neural Network function approximator of the Q-value, using the basic DQN algorithm.
+ - tabular Q-learning model on a simple environment. (see q_learning.py)
+ - Neural Network function approximator of the Q-value, using the basic DQN algorithm. (see deep_q_learning.py)
 
 https://user-images.githubusercontent.com/56875170/161816353-1fe44ca8-a21b-4a3e-8cd5-4d6bd12c87d3.mp4
 
